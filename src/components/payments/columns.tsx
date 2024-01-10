@@ -1,13 +1,4 @@
-import { ColumnDef } from '@tanstack/react-table'
-
-export type Payment = {
-  id: number
-  date: string
-  amount: number
-  fees: number
-}
-
-export const columns: ColumnDef<Payment>[] = [
+export const columns = [
   {
     accessorKey: 'id',
     header: 'Order ID',
