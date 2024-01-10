@@ -6,7 +6,7 @@ export default function RootLayout() {
   return (
     <div className="bg-background flex relative">
       <Nav />
-      <div className="w-full">
+      <div className="w-full pl-[224px]">
         <Header />
         <Outlet />
       </div>

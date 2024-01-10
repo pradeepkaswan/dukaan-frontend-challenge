@@ -8,13 +8,13 @@ import {
   Route,
 } from 'react-router-dom'
 import RootLayout from './components/layouts/root-layout.tsx'
-import Dashboard from './pages/dashboard.tsx'
+import Home from './pages/home.tsx'
 import Payments from './pages/payments.tsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route index element={<Dashboard />} />
+      <Route index element={<Home />} />
       <Route path="payments" element={<Payments />} />
     </Route>
   )

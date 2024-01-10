@@ -3,13 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: #fafafa;
-  }
-
   html,
   body {
-    @apply bg-background min-w-80;
+    @apply bg-[#fafafa] min-w-80;
   }
 }
 
