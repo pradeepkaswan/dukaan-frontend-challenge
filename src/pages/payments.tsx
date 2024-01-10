@@ -1,4 +1,4 @@
-import { ArrowDownUp, ChevronDown, Download } from 'lucide-react'
+import { ArrowDownUp, ChevronDown, Download } from "lucide-react"
 import {
   Pagination,
   PaginationContent,
@@ -7,21 +7,21 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from '@/components/ui/pagination'
-import { DataTable } from '@/components/payments/data-table'
-import { columns } from '@/components/payments/columns'
-import { payments } from '@/assets/data'
-import { Button } from '@/components/ui/button'
+} from "@/components/ui/pagination"
+import { DataTable } from "@/components/payments/data-table"
+import { columns } from "@/components/payments/columns"
+import { payments } from "@/assets/data"
+import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
   DropdownMenuTrigger,
-} from '@radix-ui/react-dropdown-menu'
+} from "@radix-ui/react-dropdown-menu"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
-} from '@/components/ui/card'
+} from "@/components/ui/card"
 
 const Payments = () => {
   return (

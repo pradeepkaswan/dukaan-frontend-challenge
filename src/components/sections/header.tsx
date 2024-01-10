@@ -1,16 +1,16 @@
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom"
 
 const Header = () => {
   const location = useLocation()
 
   const getTitle = () => {
     switch (location.pathname) {
-      case '/home':
-        return 'Home'
-      case '/payments':
-        return 'Payments'
+      case "/home":
+        return "Home"
+      case "/payments":
+        return "Payments"
       default:
-        return 'Home'
+        return "Home"
     }
   }
 
